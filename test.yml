@@ -1,0 +1,6 @@
+- hosts: all
+  tasks:
+    - command: 'cat /etc/hostname'
+      register: cat
+    - debug:
+       var: cat
