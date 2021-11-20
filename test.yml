@@ -1,6 +1,6 @@
 - hosts: all
   tasks:
-    - command: 'cat /etc/hostname'
+    - command: 'cat /home/bukshee/test'
       register: cat
     - debug:
        var: cat
