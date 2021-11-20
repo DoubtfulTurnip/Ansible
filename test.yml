@@ -1,6 +1,6 @@
 - hosts: all
   tasks:
-    - command: 'cat /home/bukshee/test'
+    - command: 'cat ~/test'
       register: cat
     - debug:
        var: cat
