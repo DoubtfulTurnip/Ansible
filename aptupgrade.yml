@@ -8,4 +8,6 @@
     apt:
       upgrade: yes
       update_cache: yes
+      autoclean: yes
+      autoremove: yes
       cache_valid_time: 86400 
