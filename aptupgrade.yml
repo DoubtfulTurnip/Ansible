@@ -13,7 +13,7 @@
       cache_valid_time: 86400 
  
    - name: Update and upgrade apt packages
-    apt:
+     apt:
        upgrade: 'dist'
        autoclean: yes
        autoremove: yes 
