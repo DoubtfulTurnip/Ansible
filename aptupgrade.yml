@@ -22,8 +22,8 @@
   - name: Print all available facts
     ansible.builtin.debug:
       var: ansible_facts
-  
+    
   - name: Unconditionally reboot the machine with all defaults
     reboot:
-    msg: 'Rebooting to apply updates'
-    test_command: 'whoami'
+      msg: 'Rebooting to apply updates'
+      test_command: 'whoami'
